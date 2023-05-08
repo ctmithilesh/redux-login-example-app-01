@@ -6,6 +6,6 @@ export const setUserLogin = (dispatch, data) => {
         type: SET_USER_LOGIN,
         dispatch: data
     })
-
-
 }
+
+
