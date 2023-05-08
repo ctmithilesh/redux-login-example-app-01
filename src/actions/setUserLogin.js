@@ -4,7 +4,7 @@ export const setUserLogin = (dispatch, data) => {
 
     dispatch({
         type: SET_USER_LOGIN,
-        dispatch: data
+        payload: data
     })
 }
 

@@ -14,6 +14,7 @@ const loginReducer = (state = initialState, action)=>{
 
             case SET_USER_LOGIN:
                 console.log('SET_USER_LOGIN')
+                console.log(action)
                 return{
                     ...newState,
                     token: action.payload
